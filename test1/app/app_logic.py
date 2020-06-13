@@ -18,7 +18,7 @@ selenium_message = []
 async def get_driver():
     options = Options()
     options.headless = False
-    driver = webdriver.Remote('/home/driver220v/Documents/ChromeDriver/chromedriver', options=options)
+    driver = webdriver.Chrome('/home/driver220v/Documents/ChromeDriver/chromedriver', options=options)
     return driver
 
 
